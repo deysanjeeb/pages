@@ -2,7 +2,7 @@ title: Seminar Docs
 theme: just-the-docs
 color_scheme: light
 logo: # optional: /assets/logo.png
-url: https://deyksanjeeb.github.io
+url: https://deysanjeeb.github.io
 
 # Enable built-in search
 search_enabled: true
@@ -11,7 +11,7 @@ search_enabled: true
 nav_order: 1
 nav_external_links:
   - title: GitHub
-    url: https://github.com/deyksanjeeb
+    url: https://github.com/deysanjeeb
 
 # Sidebar structure (optional explicit ordering)
 just_the_docs:
