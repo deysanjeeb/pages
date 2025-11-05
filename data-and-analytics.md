@@ -1,15 +1,18 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - business-model.md
-Creation date: "2025-10-31T22:10:44Z"
-Created by:
-    - Sanjeeb
-id: bafyreidlcqt7664i6oqu4t5auc37gigczn5dmzv2pbnc67skghywvelrwi
+layout: default
+title: Data & Analytics
+nav_order: 8
+tags:
+  - page
+backlinks:
+  - business-model.md
+created_at: "2025-10-31T22:10:44Z"
+created_by:
+  - Sanjeeb
+page_id: bafyreidlcqt7664i6oqu4t5auc37gigczn5dmzv2pbnc67skghywvelrwi
 ---
-# Data & Analytics   
+# Data & Analytics
+
 |                   **Agent / Automation (Gap)** |                                                                                                                                    **What It Does** |                                                 **KPIs It Improves** |                                              **Why Companies Need It / Selling Points** |                                                                                **Why It’s Missing or Expensive for SMBs** |
 |:-----------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
 |           **Data Pipeline Orchestrator Agent** |             Automatically connects SaaS tools (CRM, payment, HR, marketing, support) → builds unified data tables & refresh schedules without code. |            Data Freshness %, Report Accuracy, Manual Reporting Hours |                 Gives SMBs an automated “data backbone” without hiring a data engineer. |                                 Tools like Fivetran, Airbyte, dbt Cloud are enterprise-priced or require setup expertise. |
@@ -23,6 +26,8 @@ id: bafyreidlcqt7664i6oqu4t5auc37gigczn5dmzv2pbnc67skghywvelrwi
 |                **Auto-Narrative Report Agent** |                                                Converts raw metrics into executive summaries (weekly/monthly reports) in natural language + charts. |            Exec Reporting Time, Read Rate of Reports, Decision Speed |                SMB execs get automated insights instead of dashboards they never check. |                     Enterprise BI products like Narrative Science or PowerBI Copilot offer this but cost thousands/month. |
 |        **Cost & Profitability Analysis Agent** |                                   Consolidates transaction, payroll, and ops data to reveal per-client or per-project profit margins automatically. |            Gross Margin %, Cost per Customer, Operational Efficiency |              Gives SMBs a CFO-level insight into which clients/projects are profitable. |                       Requires integrated accounting + ops data; existing “ERP lite” tools don’t combine both affordably. |
 
+## Agent Spotlight
+
 |                           **Agent** |                                                 **Why It’s a Killer SMB Product** |                           **Core Stack Suggestion** |
 |:------------------------------------|:----------------------------------------------------------------------------------|:----------------------------------------------------|
 |         **1. LLM Data Query Agent** |     Most SMBs *hate dashboards*; “Ask your data in plain English” is instant ROI. | Supabase / Postgres + LangChain + OpenAI + chart.js |
@@ -30,4 +35,3 @@ id: bafyreidlcqt7664i6oqu4t5auc37gigczn5dmzv2pbnc67skghywvelrwi
 | **3. Data Quality & Anomaly Agent** |                             Trust is everything — catch silent data errors early. |           Python + Supabase + alert via Slack/Email |
 | **4. Predictive Insight Generator** |                                   Adds forecasting value without hiring analysts. |           Prophet or Scikit-learn + ChatGPT summary |
 |       **5. KPI Goal Tracker Agent** |              Keeps everyone accountable and aligned — drives culture and clarity. |   Notion/Slack integration + lightweight metrics DB |
-

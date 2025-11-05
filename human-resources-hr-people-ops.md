@@ -1,16 +1,20 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - business-model.md
-Creation date: "2025-10-31T22:19:00Z"
-Created by:
-    - Sanjeeb
-id: bafyreics2d7463zsvmeep32r5u3sjbamyouw5mkeov3mdfad4jhmpairzq
+layout: default
+title: Human Resources (HR) / People Ops
+nav_order: 4
+tags:
+  - page
+backlinks:
+  - business-model.md
+created_at: "2025-10-31T22:19:00Z"
+created_by:
+  - Sanjeeb
+page_id: bafyreics2d7463zsvmeep32r5u3sjbamyouw5mkeov3mdfad4jhmpairzq
 ---
-# Human Resources (HR) / People Ops   
-## 🧑‍💼 1. Recruitment & Hiring   
+# Human Resources (HR) / People Ops
+
+## 🧑‍💼 1. Recruitment & Hiring
+
 |                **Automation Idea** |                                                                                                    **Description** |                                  **Example Tools / Stack** |
 |:-----------------------------------|:-------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 |         **Job Posting Syndicator** | Automatically publish new job openings to multiple platforms (LinkedIn, Indeed, AngelList, internal careers page). |                Zapier / n8n + LinkedIn API + Google Sheets |
@@ -20,7 +24,8 @@ id: bafyreics2d7463zsvmeep32r5u3sjbamyouw5mkeov3mdfad4jhmpairzq
 |  **Automated Screening Questions** |                                                  Send auto-generated screening questionnaires and score responses. |                            Typeform + Zapier / ChatGPT API |
 |         **Offer Letter Generator** |                                             Auto-create offer letter PDFs when candidate is marked “Hired” in ATS. |            Google Docs Template + App Script + HR Database |
 
-## 🧭 2. Onboarding & Offboarding   
+## 🧭 2. Onboarding & Offboarding
+
 |                **Automation Idea** |                                                          **Description** |           **Example Tools / Stack** |
 |:-----------------------------------|:-------------------------------------------------------------------------|:------------------------------------|
 | **New Hire Workflow Orchestrator** |        Automatically trigger onboarding steps when a new employee joins. |            n8n + Notion + Slack API |
@@ -31,6 +36,8 @@ id: bafyreics2d7463zsvmeep32r5u3sjbamyouw5mkeov3mdfad4jhmpairzq
 |       **Exit Workflow Automation** | Trigger offboarding (disable accounts, revoke access, collect feedback). |       n8n + Okta + Offboarding Form |
 |          **Knowledge Handoff Bot** |          Auto-summarize departing employee’s projects for documentation. |         ChatGPT API + Notion Export |
 
+## HR Automation Landscape
+
 |                          **Category** |                                 **Commonly Automated (Well-Served Market)** |                                                                                                                                             **Underserved / Missing Opportunities** |                                                           **Not Financially Feasible for SMBs** |
 |:--------------------------------------|:----------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
 |              **Recruitment & Hiring** |       ✅ Job posting, ATS (BambooHR, Workable, Greenhouse), email responders |                                                                ⚙️ *AI Resume Ranker tuned to niche roles* (e.g., trades, local retail, nonprofits)🤖 L*LM-based cultural fit scoring |             ❌ Enterprise-level ATS with API access (Greenhouse, Lever) are expensive (> $5K/yr) |
@@ -40,5 +47,3 @@ id: bafyreics2d7463zsvmeep32r5u3sjbamyouw5mkeov3mdfad4jhmpairzq
 |      **Learning & Development (L&D)** |                              ✅ LMS platforms (TalentLMS, LearnUpon, Docebo) |                                            ⚙️ *Personalized AI training recommender* using employee skill graph⚙️ *Auto-summarized learning dashboards* built from free course data |                                     ❌ Custom LMS implementations and integrations (>$20K setup) |
 |                **Admin & Compliance** |   ✅ E-sign, document storage (DocuSign, Google Drive), compliance reminders |                                       ⚙️ *Compliance pulse agent* that scans changes in labor/tax laws and alerts HR⚙️ *Access-audit automation* synced to Google Workspace & Slack |                                   ❌ HRIS suites (SAP SuccessFactors, Workday) overkill for SMBs |
 |           **AI-Driven HR Assistants** |                   ⚙️ Emerging space — most SMBs still rely on manual HR Q&A |                                                ⚙️ *LLM-powered HR Copilot* for PTO, policies, onboarding, payroll FAQs⚙️ *Talent intelligence agent* for passive candidate sourcing |                ❌ Enterprise HR chatbots (ServiceNow HR, Oracle Digital Assistant) cost $50K+/yr |
-
-November   

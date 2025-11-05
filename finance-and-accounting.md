@@ -1,16 +1,20 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - business-model.md
-Creation date: "2025-10-31T22:12:44Z"
-Created by:
-    - Sanjeeb
-id: bafyreieo6atqbvpv2tvkobdecxscgqjdnimyaiczw6tm7se7awlzftzpli
+layout: default
+title: Finance & Accounting
+nav_order: 3
+tags:
+  - page
+backlinks:
+  - business-model.md
+created_at: "2025-10-31T22:12:44Z"
+created_by:
+  - Sanjeeb
+page_id: bafyreieo6atqbvpv2tvkobdecxscgqjdnimyaiczw6tm7se7awlzftzpli
 ---
-# Finance & Accounting   
-## 🧾 1. Bookkeeping & Transaction Management   
+# Finance & Accounting
+
+## 🧾 1. Bookkeeping & Transaction Management
+
 |                **Automation Idea** |                                                                                          **Description** |                                         **Tools / Stack** |
 |:-----------------------------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
 |                 **Bank Feed Sync** | Automatically pull transactions from all bank accounts, categorize them (e.g., revenue, expense, asset). |                        QuickBooks API, Plaid, Zapier, n8n |
@@ -19,7 +23,8 @@ id: bafyreieo6atqbvpv2tvkobdecxscgqjdnimyaiczw6tm7se7awlzftzpli
 | **Duplicate Transaction Detector** |                                                       Flag duplicate journal entries or double payments. |             Python script on schedule / Supabase cron job |
 |  **Monthly Ledger Close Reminder** |                                           Trigger monthly notifications to finance staff to close books. |                                  Slack + n8n cron trigger |
 
-## 💳 2. Accounts Payable (AP)   
+## 💳 2. Accounts Payable (AP)
+
 |                 **Automation Idea** |                                             **Description** |                                **Tools / Stack** |
 |:------------------------------------|:------------------------------------------------------------|:-------------------------------------------------|
 | **Invoice OCR & Approval Workflow** |   Extract data from PDF invoices → auto-route for approval. | Make.com / n8n + OCR (Google Vision / Tesseract) |
@@ -27,7 +32,8 @@ id: bafyreieo6atqbvpv2tvkobdecxscgqjdnimyaiczw6tm7se7awlzftzpli
 |           **PO Match Verification** | Match invoices against purchase orders and flag mismatches. |    Google Sheets + App Script / Python validator |
 |              **AP Aging Dashboard** |          Real-time view of unpaid vendor bills with alerts. |          Google Data Studio / Supabase dashboard |
 
-## 🧠 3. Accounts Receivable (AR)   
+## 🧠 3. Accounts Receivable (AR)
+
 |                **Automation Idea** |                                                  **Description** |                              **Tools / Stack** |
 |:-----------------------------------|:-----------------------------------------------------------------|:-----------------------------------------------|
 |        **Auto-Invoice Generation** |   Trigger invoice when a new deal is marked "Closed-Won" in CRM. |              HubSpot / Notion CRM → QuickBooks |
@@ -35,7 +41,8 @@ id: bafyreieo6atqbvpv2tvkobdecxscgqjdnimyaiczw6tm7se7awlzftzpli
 |           **Failed Payment Retry** | Detect failed Stripe or PayPal payments and retry automatically. |                  Stripe webhook → Retry script |
 | **Revenue Recognition Automation** |      Split upfront payments into monthly accruals automatically. | Google Sheets + App Script or QuickBooks rules |
 
-## 📊 5. Reporting & Analytics   
+## 📊 5. Reporting & Analytics
+
 |          **Automation Idea** |                                                     **Description** |                             **Tools / Stack** |
 |:-----------------------------|:--------------------------------------------------------------------|:----------------------------------------------|
 |  **Monthly P&L Auto-Report** |        Generate a Profit & Loss statement automatically each month. | Google Sheets + App Script / Supabase trigger |
@@ -43,7 +50,8 @@ id: bafyreieo6atqbvpv2tvkobdecxscgqjdnimyaiczw6tm7se7awlzftzpli
 |            **KPI Dashboard** | Automated financial metrics: burn rate, AR/AP days, revenue growth. |       Google Data Studio / Supabase dashboard |
 |    **Audit Trail Generator** |         Log all financial approvals and changes in a secure ledger. |             Supabase / PostgreSQL + CRON sync |
 
-   
+## Finance Automation Flow
+
 |                               **Agent Name** |                                               **Mission / Role** |                          **Primary Triggers** |                       **Core Tools / Integrations** |                                           **Key Guardrails** |           **Handoff / Next Agent** |
 |:---------------------------------------------|:-----------------------------------------------------------------|:----------------------------------------------|:----------------------------------------------------|:-------------------------------------------------------------|:-----------------------------------|
 | **1. Bank Ingestion & Categorization Agent** | Pull transactions, normalize vendors, auto-categorize GL entries |           Hourly cron; Plaid/Finicity webhook | Plaid, QuickBooks/Xero, Supabase, regex/LLM mapping |   Confidence threshold ≥0.85; limit posting without approval |             → Reconciliation Agent |

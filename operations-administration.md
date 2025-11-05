@@ -1,15 +1,20 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - business-model.md
-Creation date: "2025-10-31T22:30:49Z"
-Created by:
-    - Sanjeeb
-id: bafyreicp3qn6op5a46m5hppkxumt2uwbjqui6nsagidtvge6aaurkx45iu
+layout: default
+title: Operations / Administration
+nav_order: 7
+tags:
+  - page
+backlinks:
+  - business-model.md
+created_at: "2025-10-31T22:30:49Z"
+created_by:
+  - Sanjeeb
+page_id: bafyreicp3qn6op5a46m5hppkxumt2uwbjqui6nsagidtvge6aaurkx45iu
 ---
-# Operations / Administration   
+# Operations / Administration
+
+## Automation Opportunities
+
 |                          Agent / Automation (Gap) |                                                                                                                                                                                                                What it Does |                                                                           KPIs it Improves |                                                                                                                 Why SMBs Especially Need It (and Why It’s Missing) |
 |:--------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    **Workload-Balancer & Capacity Planner Agent** |                                                                      Monitors team workload, project tasks, employee time logs, and automatically assigns or rebalances tasks across teams to avoid bottlenecks or burnout. |       Utilization Rate, On-Time Task Completion %, Overtime Hours, Project Delivery Delays |  SMBs often rely on manual task-assignments and under-visibility into capacity. Fully automated capacity planning tools tend to be enterprise-grade and expensive. |
@@ -19,4 +24,3 @@ id: bafyreicp3qn6op5a46m5hppkxumt2uwbjqui6nsagidtvge6aaurkx45iu
 |      **Cross-System Workflow Orchestrator Agent** | Connects disparate systems (HRIS, CRM, ERP, Admin tools), automates multi-system workflows (e.g., new hire triggers asset request + account creation + onboarding schedule + budget reallocation) without manual hand-offs. |      Workflow Lead Time, Hand-off Errors %, Cost per Onboarding, Time to Full Productivity |                       SMBs frequently have disconnected tools and manual process glue. Integration/orchestration platforms are pricey and require technical staff. |
 |   **Admin Analytics & Bottleneck Detector Agent** |                               Monitors internal process metrics (e.g., invoice approvals, procurement cycles, facility requests) and uses anomaly/pattern detection to highlight bottlenecks, inefficiencies or cost-leaks. | Cycle Time for Admin Processes, Cost per Request, Request Backlog, Admin Cost % of Revenue |                Analytics for operations admin often gets ignored in SMBs; enterprise solutions focus on manufacturing or heavy supply chain—not light admin flows. |
 | **Compliance & Risk-Trigger Agent for Admin Ops** |       Monitors administrative triggers (contract expiries, insurance renewals, regulatory filings, vendor audit schedules), auto-generates tasks or notifications, tracks remediation; possibly uses LLM to summarise risk. |     Compliance Incident Rate, Audit Finding Count, Admin Remediation Time, Risk Exposure % |                                                         SMBs may not have dedicated risk/compliance teams; tools exist only in high-reg sectors or at large scale. |
-

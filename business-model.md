@@ -1,24 +1,27 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - Startup Planner
-Creation date: "2024-03-26T15:47:24Z"
-Created by:
-    - Sanjeeb
-Links:
-    - finance-and-accounting.md
-    - human-resources-hr-people-ops.md
-    - marketing-and-growth.md
-    - customer-support-success.md
-    - operations-administration.md
-    - data-and-analytics.md
-    - corporate-social-responsibility-csr-esg.md
-Emoji: "\U0001F4BC"
-id: bafyreiclp7fa3k3cvxpakt6eo523fxv53utl4dqoxzszfjmhiqltcsxqza
+layout: default
+title: Business Model
+nav_order: 2
+tags:
+  - page
+backlinks:
+  - Startup Planner
+created_at: "2024-03-26T15:47:24Z"
+created_by:
+  - Sanjeeb
+links:
+  - finance-and-accounting.md
+  - human-resources-hr-people-ops.md
+  - marketing-and-growth.md
+  - customer-support-success.md
+  - operations-administration.md
+  - data-and-analytics.md
+  - corporate-social-responsibility-csr-esg.md
+emoji: "\U0001F4BC"
+page_id: bafyreiclp7fa3k3cvxpakt6eo523fxv53utl4dqoxzszfjmhiqltcsxqza
 ---
-# Business Model   
+# Business Model
+
 |                                                                     **Department / Vertical** |                                  **Functions** |                                         **Key Responsibilities** |                                           **Example KPIs / Metrics** |
 |:----------------------------------------------------------------------------------------------|:-----------------------------------------------|:-----------------------------------------------------------------|:---------------------------------------------------------------------|
 |                                                                      **Executive & Strategy** |         Vision, leadership, strategic planning | Define goals, manage cross-department coordination, drive growth | Revenue growth %, strategic initiative completion, company valuation |
@@ -34,4 +37,3 @@ id: bafyreiclp7fa3k3cvxpakt6eo523fxv53utl4dqoxzszfjmhiqltcsxqza
 |                                                                        **Legal & Compliance** |                   Risk and contract management |        Handle contracts, ensure regulatory compliance, manage IP |          Contract turnaround time, compliance incidents, legal costs |
 |                                                                          **R&D / Innovation** |         New technology and product exploration |             Prototype new solutions, conduct feasibility studies |                         Number of prototypes, patents filed, R&D ROI |
 | **[Corporate Social Responsibility (CSR) / ESG](corporate-social-responsibility-csr-esg.md)** |                      Sustainability and ethics |        Implement social/environmental initiatives, report impact |         ESG score, sustainability rating, community engagement index |
-

@@ -1,16 +1,20 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - business-model.md
-Creation date: "2025-10-31T22:23:22Z"
-Created by:
-    - Sanjeeb
-id: bafyreihu6436fih6fypdr4wl4jtzslekql2fd5efj5glik4a4wir3xbqmu
+layout: default
+title: Marketing & Growth
+nav_order: 5
+tags:
+  - page
+backlinks:
+  - business-model.md
+created_at: "2025-10-31T22:23:22Z"
+created_by:
+  - Sanjeeb
+page_id: bafyreihu6436fih6fypdr4wl4jtzslekql2fd5efj5glik4a4wir3xbqmu
 ---
-# Marketing & Growth   
-⚠️ Underserved / Missing Automation & Agent Ideas for SMBs   
+# Marketing & Growth
+
+## Underserved / Missing Automation & Agent Ideas for SMBs
+
 |                           Agent / Automation Idea |                                                                                                                                                                                                Description of what it would do |                                                                                                                                                                           Why it’s missing / underserved |
 |:--------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     **“Content Idea Generator + Calendar Agent”** |                                                  An agent that monitors trending topics in your niche, then auto-generates a content calendar + suggests topics for blogs/videos + creates rough drafts/prompts for creatives. |                                                                          Many content tools do parts (e.g., topic suggestion) but full end-to-end (trend detection → calendar → draft) for SMBs is rare. |
@@ -20,4 +24,3 @@ id: bafyreihu6436fih6fypdr4wl4jtzslekql2fd5efj5glik4a4wir3xbqmu
 |         **“Local & Hyper-Personalised Ad Agent”** |                               For SMBs with local/regional presence: auto-detect local events/trends, create hyper-targeted ad creative (headline, image suggestion), deploy to local social/ad channels, monitor performance. |                                                                             Large ad tools exist but local/regional and creative automation + campaign orchestration is less common and often expensive. |
 |           **“Creative Resource Optimiser Agent”** |                    An agent that monitors campaign performance and slack/channel feedback, then suggests images/videos to refresh, identifies stale creatives, triggers a “refresh” workflow (brief, assign designer, deploy). |                                                                                                      Creative refresh is often manual; cheaper tools don’t integrate creative lifecycle with automation. |
 |         **“Voice & Conversational Growth Agent”** |         With the rise of voice/AI assistants and conversational marketing, an agent that automatically builds conversational flows, triggers micro-campaigns via voice or chat-bots, monitors behaviours, integrates with CRM. | Voice & conversational marketing still less accessible to SMBs; toolsets are pricey and technical. ( [Wikipedia](https://en.wikipedia.org/wiki/Voice-based_marketing_automation?utm_source=chatgpt.com)) |
-

@@ -1,15 +1,18 @@
 ---
-# yaml-language-server: $schema=schemas/page.schema.json
-Object type:
-    - Page
-Backlinks:
-    - business-model.md
-Creation date: "2025-10-31T22:26:30Z"
-Created by:
-    - Sanjeeb
-id: bafyreifj4w6ptimdnbhceoy7oz32elmdzdtzg47ugbhishxbbae3qqsyri
+layout: default
+title: Customer Support / Success
+nav_order: 6
+tags:
+  - page
+backlinks:
+  - business-model.md
+created_at: "2025-10-31T22:26:30Z"
+created_by:
+  - Sanjeeb
+page_id: bafyreifj4w6ptimdnbhceoy7oz32elmdzdtzg47ugbhishxbbae3qqsyri
 ---
-# Customer Support / Success   
+# Customer Support / Success
+
 |                              Agent / Automation (Gap) |                                                                           What it Does |                                               KPIs it Improves |                                               Why SMBs Need It / Why It’s Missing |
 |:------------------------------------------------------|:---------------------------------------------------------------------------------------|:---------------------------------------------------------------|:----------------------------------------------------------------------------------|
 |                      **Smart Triage & Intent Router** |       Auto-detect intent, priority, sentiment; routes to best queue/agent with context | First Response Time (FRT), Avg Handle Time (AHT), SLA hit rate |  SMBs juggle multiple inboxes; enterprise triage exists but is costly and complex |
@@ -26,4 +29,3 @@ id: bafyreifj4w6ptimdnbhceoy7oz32elmdzdtzg47ugbhishxbbae3qqsyri
 |               **Success Forecast & Capacity Planner** |                      Predicts ticket load & CSM bandwidth; suggests hiring/outsourcing |                                Backlog, SLA %, Agent Occupancy |                              Forecasting tools are RevOps-focused, not CS-focused |
 |                  **In-Product Guided Troubleshooter** |                     Dynamic decision trees embedded in app; logs telemetry and outcome |                              Self-Serve %, FCR, Bug Repro Time |             Builders exist, but telemetry-aware troubleshooters are rare for SMBs |
 |                    **Revenue-Safe Escalation Matrix** |                      Scores account value/risk; auto-escalates to senior agents or AMs |                             Save Rate, NRR, Time-to-Escalation |                             Tightly coupled CS × Sales handoff is bespoke in SMBs |
-
